@@ -11,3 +11,5 @@ Installation & Usage: To open this up, I used Ubuntu to create a Python environm
 python3 -m venv venv source venv/bin/activate jupyter lab --no-browser --ip=0.0.0.0 --port [insert a port number] To run this, however, you will need to create a new runtime service.
 
 To create a service to run on quantum hardware, be sure to implement the following code with at least this much information at the beginning of your cells: QiskitRuntimeService.save_account( channel="insert appropriate channel", token='insert API key', instance="insert CRN number", overwrite=True )
+
+#Note: You can find the original notebook here - https://quantum.cloud.ibm.com/docs/en/guides/execute-dynamic-circuits
