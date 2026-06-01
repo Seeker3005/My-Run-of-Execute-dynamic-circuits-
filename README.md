@@ -3,8 +3,8 @@ This is my run of the "Execute dynamic circuits" notebook provided by IBM Quantu
 
 What I learned:
 
-How to use the MidCircuitMeasure method when creating dynamic circuits.
-Qiskit Runtime limitations such as creating an if_test with 32 classical bits or less or testing only one classical bit and to not make nested conditionals.
+1) How to use the MidCircuitMeasure method when creating dynamic circuits.
+2) Qiskit Runtime limitations such as creating an if_test with 32 classical bits or less, or testing only one classical bit, and not making nested conditionals.
 
 Installation & Usage: To open this up, I used Ubuntu to create a Python environment. This was done by opening Ubuntu and placing the following commands:
 
